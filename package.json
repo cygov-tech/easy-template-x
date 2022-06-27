@@ -39,9 +39,9 @@
     "release": "yarn clean && yarn quality && yarn build"
   },
   "dependencies": {
-    "jszip": "3.7.0",
-    "lodash.get": "4.4.2",
-    "xmldom": "0.6.0"
+    "jszip": "^3.7.0",
+    "lodash.get": "^4.4.2",
+    "xmldom": "git@github.com:xmldom/xmldom.git"
   },
   "devDependencies": {
     "@babel/core": "7.13.10",
