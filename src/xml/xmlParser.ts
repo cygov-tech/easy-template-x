@@ -1,4 +1,4 @@
-import * as xmldom from 'xmldom';
+import * as xmldom from '@xmldom/xmldom';
 import { MissingArgumentError } from '../errors';
 import { XmlNode } from './xmlNode';
 
@@ -6,7 +6,7 @@ export class XmlParser {
 
     private static xmlHeader = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>';
     /**
-     * We always use the DOMParser from 'xmldom', even in the browser since it
+     * We always use the DOMParser from '@xmldom/xmldom', even in the browser since it
      * handles xml namespaces more forgivingly (required mainly by the
      * RawXmlPlugin).
      */
