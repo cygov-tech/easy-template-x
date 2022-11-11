@@ -1,7 +1,7 @@
 /.tmp
 /.vscode
 /.history
-/dist
+# /dist
 /node_modules
 /out
 /test-reports
